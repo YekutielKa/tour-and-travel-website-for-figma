@@ -124,7 +124,8 @@
   align-items: center;
   color: #4a4c53;
   mix-blend-mode: normal;
-  text-align: center;
+  /* text-align: center; */
+  padding-left: 30px;
 }
 
 .section_01__button {
