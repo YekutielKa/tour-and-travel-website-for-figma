@@ -7,6 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
       rel="stylesheet"
     />
@@ -20,74 +26,70 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="page-container">
-      <div class="header">
-        <div>
-          <div class="header__logo">
-            <div class="header__logo-red"></div>
-          </div>
+      <header class="header">
+        <div class="header__logo">
+          <div class="header__logo-red"></div>
         </div>
         <div>
-          <div class="header__inner">
-            <ul class="header__nav">
-              <li class="header__nav-item">
-                <a class="header__nav-item-link" href="#">Home</a>
-              </li>
-              <li class="header__nav-item">
-                <a class="header__nav-item-link" href="#">Destinations</a>
-              </li>
-              <li class="header__nav-item">
-                <a class="header__nav-item-link" href="#">About</a>
-              </li>
-              <li class="header__nav-item">
-                <a class="header__nav-item-link" href="#">Partner</a>
-              </li>
-            </ul>
-          </div>
+          <a href="#" class="header__nav nav-active">Home</a>
+          <a href="#" class="header__nav">Destinations</a>
+          <a href="#" class="header__nav">About</a>
+          <a href="#" class="header__nav">Partner</a>
         </div>
         <div class="header__button">
           <button class="header__button-login">Login</button>
           <button class="header__button-register">Register</button>
         </div>
-      </div>
-      <div class="section01">
+      </header>
+      <div class="section_01">
         <div>
-          <h1 class="section01__text">
+          <h1 class="section_01__text">
             Explore and <br />
             Travel
           </h1>
-          <h2 class="section01__holyday-finder">Holiday finder <br/>___</h2>
-          <div>
-            <form>
-              <select>
-                <option value="Location">Location</option>
+          <p class="section_01__text-little">
+            Holiday finder <br />
+            ___
+          </p>
+          <div class="section_01__form-wrap">
+            <form action="#">
+              <select class="section_01__form">
+                <option value="location">Location</option>
               </select>
             </form>
-            <form>
-              <select>
+            <form action="#">
+              <select class="section_01__form">
                 <option value="Activity">Activity</option>
               </select>
             </form>
           </div>
-          <div>
-            <form>
-              <select>
+          <div class="section_01__form-wrap">
+            <form action="#">
+              <select class="section_01__form">
                 <option value="Grade">Grade</option>
               </select>
             </form>
-            <form>
-              <select>
+            <form action="#">
+              <select class="section_01__form">
                 <option value="Date">Date</option>
               </select>
             </form>
           </div>
+          <div>
+            <button class="section_01__button">Explore</button>
+          </div>
         </div>
         <div>
-          <img src="./images/header/thousand-01 1.png" alt="thousand-01" />
+          <img
+            class="section_01__image"
+            src="./images/header/thousand-01 1.png"
+            alt="thousand-01"
+          />
         </div>
       </div>
     </div>
