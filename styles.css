@@ -120,11 +120,9 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 32px;
-  display: flex;
   align-items: center;
   color: #4a4c53;
   mix-blend-mode: normal;
-  /* text-align: center; */
   padding-left: 30px;
 }
 
@@ -139,7 +137,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  line-height: 60px;
   align-items: center;
   color: #ffffff;
   mix-blend-mode: normal;
@@ -155,11 +152,16 @@
 .section_02 {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 72px;
+  margin-top: 286px;
+  margin-bottom: 286px;
+}
+
+.section_02__left {
+  margin-right: 102px;
 }
 
 .section_02__right {
-  margin-right: 250px;
+  margin-right: 200px;
   margin-top: 80px;
 }
 
@@ -204,4 +206,75 @@
   mix-blend-mode: normal;
   text-align: center;
   cursor: pointer;
+}
+
+.section_03__text {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.section_03__text-left {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+  mix-blend-mode: normal;
+}
+
+.section_03__text-right {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  color: #fb8f1d;
+  mix-blend-mode: normal;
+}
+
+.section_03 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section_03__destinations {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section_03__destination {
+  width: 220px;
+  height: 220px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.section_03__img {
+  border-radius: 8px;
+}
+
+.section_03__destination-text {
+  position: absolute;
+  background-color: white;
+  width: 120px;
+  height: 56px;
+  bottom: -112px;
+  border-radius: 0 8px 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  display: flex;
+  color: #042521;
+  mix-blend-mode: normal;
+  padding-bottom: 2px;
+}
+
+.section_03__destination-text-country {
+  color: #7d7987;
+  font-size: 19px;
 }
