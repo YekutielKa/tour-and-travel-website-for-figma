@@ -4,200 +4,145 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <div class="page-container">
+    <div class="wrapper">
       <header class="header">
-        <div class="header__logo">
-          <div class="header__logo-red"></div>
+        <div class="logo">
+          <div class="logo-red"></div>
         </div>
+        <a class="header-nav active">Home</a>
+        <a class="header-nav">Destination</a>
+        <a class="header-nav">About</a>
+        <a class="header-nav">Partner</a>
         <div>
-          <a href="#" class="header__nav nav-active">Home</a>
-          <a href="#" class="header__nav">Destinations</a>
-          <a href="#" class="header__nav">About</a>
-          <a href="#" class="header__nav">Partner</a>
-        </div>
-        <div class="header__button">
-          <button class="header__button-login">Login</button>
-          <button class="header__button-register">Register</button>
+          <button class="button-login">
+            <span class="button-login-text">Login</span>
+          </button>
+          <button class="button-register">
+            <span class="button-register-text">Register</span>
+          </button>
         </div>
       </header>
-      <div class="section_01">
+      <!-- <div class="explore">
         <div>
-          <h1 class="section_01__text">
+          <h1 class="explore-header">
             Explore and <br />
             Travel
           </h1>
-          <p class="section_01__text-little">
-            Holiday finder <br />
-            ___
-          </p>
-          <div class="section_01__form-wrap">
-            <form action="#">
-              <select class="section_01__form">
-                <option value="location">Location</option>
-              </select>
-            </form>
-            <form action="#">
-              <select class="section_01__form">
-                <option value="Activity">Activity</option>
-              </select>
-            </form>
-          </div>
-          <div class="section_01__form-wrap">
-            <form action="#">
-              <select class="section_01__form">
-                <option value="Grade">Grade</option>
-              </select>
-            </form>
-            <form action="#">
-              <select class="section_01__form">
-                <option value="Date">Date</option>
-              </select>
-            </form>
+          <p class="explore-text">Holiday finder<br />___</p>
+          <div>
+            <select class="explore-select">
+              <option>Location</option>
+            </select>
+            <select class="explore-select">
+              <option>Activity</option>
+            </select>
           </div>
           <div>
-            <button class="section_01__button">Explore</button>
+            <select class="explore-select">
+              <option>Grade</option>
+            </select>
+            <select class="explore-select">
+              <option>Date</option>
+            </select>
+          </div>
+          <div>
+            <button class="explore-button">
+              <span class="explore-button-text">Explore</span>
+            </button>
           </div>
         </div>
+        <img src="./images/explore_and_travel.png" />
+      </div> -->
+      <!-- <div class="new_way">
+        <img src="./images/new_way.png" />
         <div>
-          <img
-            class="section_01__image"
-            src="./images/header/thousand-01 1.png"
-            alt="thousand-01"
-          />
-        </div>
-      </div>
-      <div class="section_02">
-        <div class="section_02__left">
-          <img src="./images/header/Thousand-02 1.png" alt="Thousand-02" />
-        </div>
-        <div class="section_02__right">
-          <h2 class="section_02__text-header">
+          <h2 class="new_way-header">
             A new way to explore the <br />
             world
           </h2>
-          <div class="section_02__wrap-text">
-            <p class="section_02__text">
-              For decades travellers have reached for Lonely Planet books when
-              looking to plan and execute their perfect trip, but now, they can
-              also let Lonely Planet Experiences lead the way
-            </p>
-          </div>
-          <button class="section_02__button">Learn more</button>
-        </div>
-      </div>
-    </div>
-    <div class="section_03__text">
-      <h2 class="section_03__text-left">Featured destinations</h2>
-      <a class="section_03__text-right" href="#">View all ></a>
-    </div>
-    <div class="section_03">
-      <div class="section_03__destinations">
-        <div class="section_03__destination">
-          <img
-            class="section_03__img"
-            src="./images/header/RajaAmpat.png"
-            alt="RajaAmpat"
-          />
-          <div class="section_03__destination-text">
-            <p>
-              <span class="section_03__destination-text-place">Raja Ampat</span>
-              <br /><span class="section_03__destination-text-country"
-                >Indonesia</span
-              >
-            </p>
-          </div>
-        </div>
-        <div class="section_03__destination">
-          <img
-            class="section_03__img"
-            src="./images/header/Fanjingshan.png"
-            alt="Fanjingshan"
-          />
-          <div class="section_03__destination-text">
-            <p>
-              <span class="section_03__destination-text-place"
-                >Fanjingshan</span
-              >
-              <br /><span class="section_03__destination-text-country"
-                >China</span
-              >
-            </p>
-          </div>
-        </div>
-        <div class="section_03__destination">
-          <img
-            class="section_03__img"
-            src="./images/header/Veve.png"
-            alt="Veve"
-          />
-          <div class="section_03__destination-text">
-            <p>
-              <span class="section_03__destination-text-place">Vevey</span>
-              <br /><span class="section_03__destination-text-country"
-                >Switzerland</span
-              >
-            </p>
-          </div>
-        </div>
-        <div class="section_03__destination">
-          <img
-            class="section_03__img"
-            src="./images/header/Skadar.png"
-            alt="Skadar"
-          />
-          <div class="section_03__destination-text">
-            <p>
-              <span class="section_03__destination-text-place">Skadar</span>
-              <br /><span class="section_03__destination-text-country"
-                >Montenegro</span
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section_04">
-      <div class="section_04__left">
-        <h1 class="section_04__text-header">
-          Guides by Thousand <br />
-          Sunny
-        </h1>
-        <div class="section_04__text-wrap">
-          <p class="section_04__text">
-            Packed with tips and advice from our on-the-ground experts, our city
-            guides app (iOS and Android) is the ultimate resource before and
-            during a trip.
+          <p class="new_way-text">
+            For decades travelers have reached for Lonely Planet <br />
+            books when looking to plan and execute their perfect <br />
+            trip, but now, they can also let Lonely Planet Experiences <br />
+            lead the way
           </p>
+          <button class="new_way-button">
+            <span class="new_way-button-text">Learn More</span>
+          </button>
         </div>
-      </div>
-      <div class="section_04__right">
-        <img class="section_04__image" src="./images/header/Thousand-03.png" alt="" />
+      </div> -->
+      <!-- <div class="destinations">
+        <div class="destinations-text">
+          <h2 class="destinations-text-header">Featured destinations</h2>
+          <a class="destinations-text-view">View all &nbsp; ></a>
+        </div>
+        <div class="destinations-images">
+          <div class="destination">
+            <img class="destination-image" src="./images/RajaAmpat.png" />
+            <div class="destination-text">
+              <p>
+                <span>Raja Ampat</span><br />
+                Indonesia
+              </p>
+            </div>
+          </div>
+          <div class="destination">
+            <img class="destination-image" src="./images/Fanjingshan.png" />
+            <div class="destination-text">
+              <p>
+                <span>Fanjingshant</span><br />
+                China
+              </p>
+            </div>
+          </div>
+          <div class="destination">
+            <img class="destination-image" src="./images/Veve.png" />
+            <div class="destination-text">
+              <p>
+                <span>Vevei</span><br />
+                Switzerland
+              </p>
+            </div>
+          </div>
+          <div class="destination">
+            <img class="destination-image" src="./images/Skadar.png" />
+            <div class="destination-text">
+              <p>
+                <span>Skadar</span><br />
+                Montenegro
+              </p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="guides">
+        <div class="guides-text">
+          <h2 class="guides-text-header">
+            Guides by Thousand <br />
+            Sunny
+          </h2>
+          <p class="guides-text-text">
+            Packed with tips and advice from our on-the-ground <br />
+            experts, our city guides app (iOS and Android) is the <br />
+            ultimate resource before and during a trip.
+          </p>
+          <button class="guides-text-button"><span>Download</span></button>
+        </div>
+        <img src="./images/guides_by_thousand.png" />
       </div>
     </div>
   </body>

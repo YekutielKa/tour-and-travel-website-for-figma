@@ -1,0 +1,283 @@
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 1600px;
+  max-width: 1600px;
+}
+
+.logo {
+  margin-right: 600px;
+  position: relative;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: #1abe84;
+}
+.logo-red {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 15px;
+  height: 15px;
+  background-color: #fb8f1d;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+}
+
+.header {
+  margin-top: 15px;
+  margin-bottom: 80px;
+  width: 1415px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav {
+  padding-top: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #b8becd;
+  cursor: pointer;
+}
+
+.active {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  color: #202336;
+}
+
+.button-login {
+  width: 132px;
+  height: 44px;
+  background-color: white;
+  border: 1px solid #fb8f1d;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.button-login-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fb8f1d;
+  mix-blend-mode: normal;
+}
+
+.button-register {
+  margin-left: 15px;
+  width: 132px;
+  height: 44px;
+  background: #fb8f1d;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.button-register-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.explore {
+  width: 1415px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 90px;
+}
+.explore-header {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  color: #202336;
+  mix-blend-mode: normal;
+}
+.explore-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: #202336;
+}
+
+.explore-select {
+  margin-right: 20px;
+  margin-top: 25px;
+  width: 220px;
+  height: 52px;
+  border: 0.8px solid #afb0b9;
+  border-radius: 6px;
+  padding-left: 20px;
+}
+
+.explore-button {
+  margin-top: 40px;
+  width: 180px;
+  height: 52px;
+  background: #fb8f1d;
+  border: none;
+  border-radius: 8px;
+}
+.explore-button-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  align-items: center;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.new_way {
+  margin-left: 90px;
+  margin-top: 286px;
+  display: flex;
+  justify-content: space-between;
+}
+.new_way-header {
+  padding-top: 50px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+  mix-blend-mode: normal;
+}
+.new_way-text {
+  padding-right: 250px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7d7987;
+  mix-blend-mode: normal;
+}
+.new_way-button {
+  margin-top: 30px;
+  width: 164px;
+  height: 48px;
+  background: #fb8f1d;
+  border: none;
+  border-radius: 8px;
+}
+.new_way-button-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.destinations {
+  margin-top: 292px;
+  width: 1200px;
+  margin-left: 160px;
+}
+.destinations-text {
+  display: flex;
+  justify-content: space-between;
+}
+.destinations-text-header {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+  mix-blend-mode: normal;
+}
+.destinations-text-view {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  color: #fb8f1d;
+  mix-blend-mode: normal;
+}
+.destinations-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.destination {
+  position: relative;
+}
+.destination-image {
+  border-radius: 10px;
+}
+.destination-text {
+  background-color: white;
+  width: 120px;
+  height: 56px;
+  position: absolute;
+  bottom: 5px;
+  border-radius: 0 10px 0 0;
+}
+.destination-text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  align-items: center;
+  color: #80918e;
+  mix-blend-mode: normal;
+}
+.destination-text span {
+  color: #042521;
+  font-size: 17px;
+}
+
+.guides {
+  margin-top: 292px;
+  width: 1200px;
+  margin-left: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.guides-text-header {
+  margin-top: 180px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+  mix-blend-mode: normal;
+}
+.guides-text-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7d7987;
+  mix-blend-mode: normal;
+}
+.guides-text-button {
+  margin-top: 25px;
+  width: 164px;
+  height: 48px;
+  background: #fb8f1d;
+  border: none;
+  border-radius: 8px;
+}
+.guides-text-button span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}
